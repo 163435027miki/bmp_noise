@@ -1,0 +1,17 @@
+﻿2016/07/15 16:39:39 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "c:\Users\ohshima\documents\visual studio 2010\Projects\bmp_noise\bmp_noise\bmp_noise.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "Debug\bmp_noise.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "Debug\bmp_noise.unsuccessfulbuild" のタッチ タスクを実行しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\OpenCV2.4.13s\opencv-2.4.13\build\install\include" /I"C:\OpenCV2.4.13s\opencv-2.4.13\build\install\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bmp_noise.cpp
+         bmp_noise.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ohshima\documents\visual studio 2010\Projects\bmp_noise\Debug\bmp_noise.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenCV2.4.13s\opencv-2.4.13\build\install\lib\Debug" /LIBPATH:"C:\OpenCV2.4.13s\opencv-2.4.13\build\install\x86\vc10\lib" opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bmp_noise.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\ohshima\documents\visual studio 2010\Projects\bmp_noise\Debug\bmp_noise.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ohshima\documents\visual studio 2010\Projects\bmp_noise\Debug\bmp_noise.lib" /MACHINE:X64 Debug\bmp_noise.obj
+     1>Debug\bmp_noise.obj : fatal error LNK1112: モジュールのコンピューターの種類 'X86' は対象コンピューターの種類 'x64' と競合しています。
+     1>プロジェクト "c:\Users\ohshima\documents\visual studio 2010\Projects\bmp_noise\bmp_noise\bmp_noise.vcxproj" (rebuild ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.96
